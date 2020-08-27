@@ -1,10 +1,9 @@
 "use strict";
 
-var a = 4;
-var b = 8;
-
-if (a > b) {
-  console.log(a);
-} else {
-  console.log(b);
-}
+var a = 8;
+var b = 5;
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);

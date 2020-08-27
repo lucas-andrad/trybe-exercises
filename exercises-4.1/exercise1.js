@@ -1,9 +1,9 @@
-var a = 4
-var b = 8
+var a = 8
+var b = 5
 
-if (a>b){
-    console.log(a) 
-}
-else{
-    console.log(b) 
-}
+
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);
