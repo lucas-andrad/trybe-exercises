@@ -8,3 +8,10 @@ for (let i = 0; i < numbers.length; i++){
 let media = sum/numbers.length
 
 console.log(media)
+
+if (media > 20){
+    console.log("maior que 20")
+}
+else{
+    console.log("menor que 20")
+}
