@@ -3,11 +3,17 @@ const options = document.querySelector("#options");
 const form = document.querySelector("#formulario").elements
 const labels = document.querySelectorAll("label")
 
-console.log(form)
 
 for (let i = 0; i < arr.length; i += 1) {
-  let option = document.createElement("option")
-  option.innerText = arr [i]
-  options.appendChild(option)  
-}
+  let option = document.createElement("option");
+  option.innerText = arr [i];
+  options.appendChild(option);  
+};
 
+
+
+function postData(){
+    for (let i = 0; i < labels.length; i += 1) {
+    console.log(labels[i].innerText + ": " + form[i].value)
+    }
+}

@@ -8,7 +8,7 @@
     <script type="text/javascript" src="script.js" defer></script>
 </head>
 <body>
-    <form action="" id="formulario">
+    <form action="" id="formulario" onsubmit="postData()">
         <fieldset id="Part1">
         <div>
             <label for="name">Nome</label>
@@ -45,8 +45,7 @@
 
     <fieldset>
         <div>
-            <p>Resumo do currículo</p>
-            <label for="resumo"></label>
+            <label for="resumo">Resumo do currículo</label>
             <textarea name="resumo" id="" cols="30" rows="10" maxlength="1000" required></textarea>
         </div>
 
