@@ -23,3 +23,9 @@ function postData(evt){
     result.appendChild(block)
     }
 }
+
+function clearData() {
+  for (let i = 0; i < labels.length; i += 1) {
+    form[i].value = ''
+    }
+}
