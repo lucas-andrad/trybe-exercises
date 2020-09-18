@@ -2,6 +2,7 @@ const arr = ["Acre", "Alagoas", "Amapá", "Amazonas", "Bahia", "Ceará", "Espír
 const options = document.querySelector("#options");
 const form = document.querySelector("#formulario").elements
 const labels = document.querySelectorAll("label")
+const result = document.getElementById('result')
 
 
 for (let i = 0; i < arr.length; i += 1) {
@@ -12,8 +13,13 @@ for (let i = 0; i < arr.length; i += 1) {
 
 
 
-function postData(){
+function postData(evt){
+  evt.preventDefault();
+  const block = document.createElement('div');
     for (let i = 0; i < labels.length; i += 1) {
-    console.log(labels[i].innerText + ": " + form[i].value)
+    let p = document.createElement('p')
+    p.innerHTML = labels[i].innerText + ": " + form[i].value
+    block.appendChild(p)
+    result.appendChild(block)
     }
 }

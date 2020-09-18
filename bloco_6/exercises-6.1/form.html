@@ -8,7 +8,7 @@
     <script type="text/javascript" src="script.js" defer></script>
 </head>
 <body>
-    <form action="" id="formulario" onsubmit="postData()">
+    <form action="" id="formulario">
         <fieldset id="Part1">
         <div>
             <label for="name">Nome</label>
@@ -64,8 +64,12 @@
             <input type="date" name="data" id="" required>
         </div>
     </fieldset>
-    <button type="submit">Enviar dados</button>
     </form>
+    <button type="submit" onclick="postData(event)">Enviar dados</button>
+    <button>Limpar</button>
+    <div id="result">
+
+    </div>
     
 </body>
 </html>
