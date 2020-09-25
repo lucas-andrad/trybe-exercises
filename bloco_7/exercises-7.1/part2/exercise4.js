@@ -1,5 +1,14 @@
-function replaceStr(str){
-    return `Tryber {str} aqui!`
+function replaceStr(str) {
+  return `Tryber ${str} aqui!`;
 }
 
-console.log(replaceStr('Bebeto'))
+let arr = ['Javascript', 'Python', 'SQL', 'React', 'Typescript'];
+
+console.log(replaceStr('Bebeto'));
+
+function concat(str) {
+  return `Tryber ${str} aqui!
+  Minhas principais são: ${arr.sort()}`;
+}
+
+console.log(concat('Lucas'));

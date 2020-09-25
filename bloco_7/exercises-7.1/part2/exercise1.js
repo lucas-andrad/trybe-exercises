@@ -6,4 +6,5 @@ function fatorial(number) {
   return result;
 }
 
+
 console.log(fatorial(4));
