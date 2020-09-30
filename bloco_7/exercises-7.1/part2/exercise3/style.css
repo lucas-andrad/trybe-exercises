@@ -1,0 +1,29 @@
+body {
+    background-color: rebeccapurple;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter {
+    font-size: 100px;
+    margin-bottom: 0;
+    font-family: fantasy;
+    color: black;
+}
+
+.click {
+    border: none;
+    width: 120px;
+    height: 70px;
+    font-size: 40px;
+}
+
+.click:hover {
+    color: white;
+    background-color: black;
+}
