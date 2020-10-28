@@ -3,6 +3,7 @@ const sum = require('./exercise1.js');
 const myRemove = require('./exercise2.js');
 const myRemoveWithoutCopy = require('./exercise3.js');
 const myFizzBuzz = require('./exercise4.js');
+const obj1 = require('./exercise5.js');
 
 describe('Testando se as funções passadas estão implementadas corretamente', () => {
   it('Testando se as funções de soma estão sendo implementadas corretamente', () => {
@@ -23,5 +24,11 @@ describe('Testando se as funções passadas estão implementadas corretamente', 
     expect(myFizzBuzz(10)).toBe('buzz');
     expect(myFizzBuzz(17)).toBe(17);
     expect(myFizzBuzz('10')).toBe(false);
+  });
+  it('Testando se os objetos do exercício 5 são iguais', () => {
+    expect(obj1).toEqual({
+      title: 'My Title',
+      description: 'My Description',
+    });
   });
 });
