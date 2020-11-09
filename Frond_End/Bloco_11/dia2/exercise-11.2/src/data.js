@@ -93,7 +93,7 @@ const pokemons = [
     name: 'Dragonair',
     type: 'Dragon',
     averageWeight: {
-      value: 16.5,
+      value: 16.4,
       measurementUnit: 'kg',
     },
     image: 'https://cdn.bulbagarden.net/upload/2/2c/Spr_5b_148.png',
