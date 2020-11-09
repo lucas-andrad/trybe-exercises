@@ -2,12 +2,12 @@ import React from 'react';
 
 class Card extends React.Component {
   render() {
-    const { id, name, type } = this.props.pokemon;
+    const { name, type , averageWeight, image} = this.props.pokemon;
     console.log(this.props.pokemon);
     return (
       <div>
         <p>
-          {id}, {name}, {type}
+          {name}, {type}
         </p>
       </div>
     );
