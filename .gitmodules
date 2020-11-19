@@ -1,0 +1,3 @@
+[submodule "Front_End/Bloco_12/dia1"]
+	path = Front_End/Bloco_12/dia1
+	url = git@github.com:lucas-andrad/exercise-pokedex-state.git
