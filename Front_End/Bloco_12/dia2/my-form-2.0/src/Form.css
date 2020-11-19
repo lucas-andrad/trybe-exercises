@@ -1,0 +1,18 @@
+.MyForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80px;
+  }
+
+.MyForm input {
+    width: 200px;
+}
+
+.MyForm select {
+    width: 50px;
+}
+
+.MyForm .radio input{
+    width: 30px;
+}
